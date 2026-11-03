@@ -2,7 +2,6 @@ import { useEffect } from 'react'
 import { Outlet, useLocation } from 'react-router-dom'
 import Header from './Header.jsx'
 import Footer from './Footer.jsx'
-import Sprite from '../ui/Sprite.jsx'
 import WhatsAppFab from '../engagement/WhatsAppFab.jsx'
 import LeadDrawer from '../engagement/LeadDrawer.jsx'
 import CookieConsent from '../engagement/CookieConsent.jsx'
@@ -22,7 +21,6 @@ export default function Layout() {
 
   return (
     <>
-      <Sprite />
       <Header />
       <main><Outlet /></main>
       <Footer />
